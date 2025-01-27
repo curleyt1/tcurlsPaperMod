@@ -4,7 +4,7 @@ title: T's Personal Website
 theme: PaperMod
 
 enableRobotsTXT: true
-buildDrafts: true
+buildDrafts: false
 
 params:
   #env: production #use this when needed for google analytics and such
@@ -84,8 +84,7 @@ menu:
       name: wasil
       url: /wasil/
       weight: 20
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
